@@ -211,67 +211,86 @@ setIsSubmitting(false);
 
             {/* Right Column: Details */}
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              className="flex flex-col justify-start pt-4"
-            >
-              <div className="space-y-8">
-                <div>
-                  <h2 className="text-2xl font-bold text-[#1E3A8A] mb-6">Contact Information</h2>
-                  <p className="text-[#1A1A1A] mb-8 leading-relaxed">
-                    We are here to answer any questions you may have about our services. 
-                    Reach out to us and we'll respond as soon as we can.
-                  </p>
-                </div>
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.5, delay: 0.2 }}
+  className="flex flex-col justify-start pt-4"
+>
+  <div className="space-y-8">
+    <div>
+      <h2 className="text-2xl font-bold text-[#1E3A8A] mb-6">Contact Information</h2>
+      <p className="text-[#1A1A1A] mb-8 leading-relaxed">
+        We are here to answer any questions you may have about our services.
+        Reach out to us and we'll respond as soon as we can.
+      </p>
+    </div>
 
-                <div className="space-y-6">
-                  {/* Phone */}
-                  <div className="flex items-center space-x-4">
-                    <div className="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-full bg-blue-50">
-                      <Phone className="w-5 h-5 text-[#1E3A8A]" />
-                    </div>
-                    <div>
-                      <p className="text-sm text-gray-500 font-medium">Phone</p>
-                      <a href="tel:+61423152469" className="text-[#1A1A1A] font-medium hover:text-[#1E3A8A] transition-colors">
-                        +61 423 152 469
-                      </a>
-                    </div>
-                  </div>
+    {/* Legal Business Info */}
+    <div className="bg-blue-50 p-5 rounded-lg text-[#1A1A1A] text-sm leading-relaxed">
+      <p className="font-semibold text-[#1E3A8A]">FAVQX</p>
+      <p>Proprietor: Muhammed Favas Malayil</p>
+      <p>
+        Address: Malayil, Thachampoyil, Kedavur,<br />
+        Thamarassery, Kozhikode, Kerala – 673573, India
+      </p>
+    </div>
 
-                  {/* Email */}
-                  <div className="flex items-center space-x-4">
-                    <div className="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-full bg-blue-50">
-                      <Mail className="w-5 h-5 text-[#1E3A8A]" />
-                    </div>
-                    <div>
-                      <p className="text-sm text-gray-500 font-medium">Email</p>
-                      <a href="mailto:contact@favqx.com" className="text-[#1A1A1A] font-medium hover:text-[#1E3A8A] transition-colors">
-                        contact@favqx.com
-                      </a>
-                    </div>
-                  </div>
+    <div className="space-y-6">
 
-                  {/* LinkedIn */}
-                  <div className="flex items-center space-x-4">
-                    <div className="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-full bg-blue-50">
-                      <Linkedin className="w-5 h-5 text-[#1E3A8A]" />
-                    </div>
-                    <div>
-                      <p className="text-sm text-gray-500 font-medium">LinkedIn</p>
-                      <a 
-                        href="https://www.linkedin.com/in/mu-favaz" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="text-[#1A1A1A] font-medium hover:text-[#1E3A8A] transition-colors"
-                      >
-                        www.linkedin.com/in/mu-favaz
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </motion.div>
+      {/* Phone */}
+      <div className="flex items-center space-x-4">
+        <div className="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-full bg-blue-50">
+          <Phone className="w-5 h-5 text-[#1E3A8A]" />
+        </div>
+        <div>
+          <p className="text-sm text-gray-500 font-medium">Phone</p>
+          <a
+            href="tel:+918129380457"
+            className="text-[#1A1A1A] font-medium hover:text-[#1E3A8A] transition-colors"
+          >
+            +91 81293 80457
+          </a>
+        </div>
+      </div>
+
+      {/* Email */}
+      <div className="flex items-center space-x-4">
+        <div className="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-full bg-blue-50">
+          <Mail className="w-5 h-5 text-[#1E3A8A]" />
+        </div>
+        <div>
+          <p className="text-sm text-gray-500 font-medium">Email</p>
+          <a
+            href="mailto:contact@favqx.com"
+            className="text-[#1A1A1A] font-medium hover:text-[#1E3A8A] transition-colors"
+          >
+            contact@favqx.com
+          </a>
+        </div>
+      </div>
+
+      {/* LinkedIn */}
+      <div className="flex items-center space-x-4">
+        <div className="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-full bg-blue-50">
+          <Linkedin className="w-5 h-5 text-[#1E3A8A]" />
+        </div>
+        <div>
+          <p className="text-sm text-gray-500 font-medium">LinkedIn</p>
+          <a
+            href="https://www.linkedin.com/in/mu-favaz"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#1A1A1A] font-medium hover:text-[#1E3A8A] transition-colors"
+          >
+            www.linkedin.com/in/mu-favaz
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</motion.div>
+
           </div>
         </div>
       </div>
