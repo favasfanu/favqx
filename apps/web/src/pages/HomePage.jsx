@@ -227,7 +227,7 @@ const HomePage = () => {
             >
               <img
                 src="https://images.unsplash.com/photo-1552581234-26160f608093"
-                alt="Muhammed Favas - Founder of FAVQX"
+                alt=""
                 className="rounded-xl shadow-2xl w-full h-auto"
               />
             </motion.div>
@@ -242,11 +242,11 @@ const HomePage = () => {
                 Meet Our Founder
               </h2>
               <h3 className="text-2xl text-navy-light mb-4 font-semibold">
-                Muhammed Favas
+                Muhammed Favas Malayil
               </h3>
               <p className="text-charcoal text-lg leading-relaxed mb-6">
                 With a vision to transform how businesses approach growth and strategy, 
-                Muhammed Favas founded FAVQX to provide premium advisory services that 
+                Muhammed Favas Malayil founded FAVQX to provide premium advisory services that 
                 combine global insights with practical execution. His commitment to 
                 transparency, structure, and long-term value creation has helped numerous 
                 organizations achieve sustainable success.
