@@ -55,35 +55,55 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact Info */}
-          <div>
-            <h3 className="text-[#1E3A8A] font-semibold mb-4">Get in Touch</h3>
-            <ul className="space-y-3">
-              <li className="flex items-center space-x-3 text-[#1A1A1A]">
-                <Phone size={18} className="text-[#1E3A8A] flex-shrink-0" />
-                <a href="tel:+61423152469" className="text-sm hover:text-[#1E3A8A] transition-colors duration-300">
-                  +61 423 152 469
-                </a>
-              </li>
-              <li className="flex items-center space-x-3 text-[#1A1A1A]">
-                <Mail size={18} className="text-[#1E3A8A] flex-shrink-0" />
-                <a href="mailto:contact@favqx.com" className="text-sm hover:text-[#1E3A8A] transition-colors duration-300">
-                  contact@favqx.com
-                </a>
-              </li>
-              <li className="flex items-center space-x-3 text-[#1A1A1A]">
-                <Linkedin size={18} className="text-[#1E3A8A] flex-shrink-0" />
-                <a 
-                  href="https://www.linkedin.com/in/mu-favaz" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-sm hover:text-[#1E3A8A] transition-colors duration-300"
-                >
-                  www.linkedin.com/in/mu-favaz
-                </a>
-              </li>
-            </ul>
-          </div>
+         {/* Contact Info */}
+<div>
+  <h3 className="text-[#1E3A8A] font-semibold mb-4">Get in Touch</h3>
+
+  {/* Legal Business Info */}
+  <div className="mb-4 text-sm text-[#1A1A1A] leading-relaxed">
+    <p className="font-semibold">FAVQX</p>
+    <p>Proprietor: Muhammed Favas Malayil</p>
+    <p>
+      Address: Malayil, Thachampoyil, Kedavur,<br />
+      Thamarassery, Kozhikode, Kerala – 673573, India
+    </p>
+  </div>
+
+  <ul className="space-y-3">
+    <li className="flex items-center space-x-3 text-[#1A1A1A]">
+      <Phone size={18} className="text-[#1E3A8A] flex-shrink-0" />
+      <a
+        href="tel:+918129380457"
+        className="text-sm hover:text-[#1E3A8A] transition-colors duration-300"
+      >
+        +91 81293 80457
+      </a>
+    </li>
+
+    <li className="flex items-center space-x-3 text-[#1A1A1A]">
+      <Mail size={18} className="text-[#1E3A8A] flex-shrink-0" />
+      <a
+        href="mailto:contact@favqx.com"
+        className="text-sm hover:text-[#1E3A8A] transition-colors duration-300"
+      >
+        contact@favqx.com
+      </a>
+    </li>
+
+    <li className="flex items-center space-x-3 text-[#1A1A1A]">
+      <Linkedin size={18} className="text-[#1E3A8A] flex-shrink-0" />
+      <a
+        href="https://www.linkedin.com/in/mu-favaz"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-sm hover:text-[#1E3A8A] transition-colors duration-300"
+      >
+        www.linkedin.com/in/mu-favaz
+      </a>
+    </li>
+  </ul>
+</div>
+
         </div>
 
         {/* Copyright */}
