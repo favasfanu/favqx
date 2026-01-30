@@ -114,11 +114,11 @@ const AboutPage = () => {
                 Founder & Visionary
               </h2>
               <h3 className="text-3xl text-navy-light mb-6 font-semibold">
-                Muhammed Favas
+                Muhammed Favas Malayil
               </h3>
               <div className="space-y-4 text-charcoal text-lg leading-relaxed">
                 <p>
-                  Muhammed Favas is the founder and driving force behind FAVQX. With a deep 
+                  Muhammed Favas Malayil is the founder and driving force behind FAVQX. With a deep 
                   understanding of global business dynamics and a passion for helping organizations 
                   achieve sustainable growth, he established FAVQX to bridge the gap between 
                   strategic vision and practical execution.
@@ -146,7 +146,7 @@ const AboutPage = () => {
             >
               <img
                 src="https://images.unsplash.com/photo-1690192079529-9fd57e5b24d0"
-                alt="Muhammed Favas - Founder of FAVQX"
+                alt=""
                 className="rounded-xl shadow-2xl w-full h-auto"
               />
             </motion.div>
