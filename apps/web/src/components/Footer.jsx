@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Linkedin, Twitter, Github, MapPin } from 'lucide-react';
+import { Linkedin, Github, Mail, MapPin } from 'lucide-react';
 
 function Footer() {
   const mainLinks = [
@@ -11,9 +11,9 @@ function Footer() {
   ];
 
   const socialLinks = [
-    { name: 'LinkedIn', icon: Linkedin, url: '#' },
-    { name: 'Twitter', icon: Twitter, url: '#' },
-    { name: 'GitHub', icon: Github, url: '#' },
+    { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/company/favqx/' },
+    { name: 'GitHub', icon: Github, url: 'https://github.com/mufavaz' },
+    { name: 'Email', icon: Mail, url: 'mailto:contact@favqx.com' },
   ];
 
   return (
